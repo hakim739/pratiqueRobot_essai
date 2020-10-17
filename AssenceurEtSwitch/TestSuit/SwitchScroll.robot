@@ -21,7 +21,7 @@ CT-002
     ${url}=    Get Location
     Log To Console    ${url}  
     
-Ct-003
+CT-003
     Open Browser    https://www.yahoo.com    gc
     Maximize Browser Window
     Sleep    5s    
@@ -29,6 +29,7 @@ Ct-003
     Maximize Browser Window
     Switch Browser    1
     
-    
+CT-004
+    Log To Console    essai GitHub    
 
       
